@@ -23,7 +23,13 @@ cd Cookie_crumbler
 bash cookie_crumbler.sh [TARGET]
 ```
 
-where `[TARGET]` is a substring of the name of the website for which you want to remove all the cookies
+where `[TARGET]` is a substring of the name of the website for which you want to remove all the cookies, for example
+
+```
+bash cookie_crumbler.sh google
+```
+
+will remove all cookies which come from sites with the name 'google' in it.
 
 ## Disclaimer
 

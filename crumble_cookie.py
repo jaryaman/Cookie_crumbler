@@ -16,7 +16,6 @@ try:
 except subprocess.CalledProcessError:
     print("Couldn't find your cookies database.")
 cookies_fn = result[:-1].decode("utf-8") # remove '\n' and cast as string
-cookies_dir = cookies_fn.split('/cookies.sqlite')[0]
 
 # backup cookies + temp files
 bck_cook_command = 'cp ' + cookies_fn + ' ' + cookies_fn + '.backup'
@@ -65,7 +64,4 @@ print(records_after)
 
 print("And that's the way the cookie crumbles")
 
-'''
-Y U NO WORK???
-'''
 
