@@ -31,6 +31,12 @@ bash cookie_crumbler.sh google
 
 will remove all cookies which come from sites with the name 'google' in it.
 
+## Tip
+
+If you have a particular website which you frequently want to remove the cookies for, you can make an alias. E.g. if you want to remove google cookies frequently, then add the following line to `~/.bashrc`
+
+alias rm_google_cookies='bash /path/to/Cookie_crumbler/cookie_crumbler.sh google'
+
 ## Disclaimer
 
 This has only been tested on Ubuntu 14.04 LTS. I made this for fun, use at your own peril...
