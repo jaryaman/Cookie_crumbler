@@ -1,10 +1,10 @@
 # Cookie crumbler
 
-Removes cookies from a particular website.
+Removes all cookies from a website whose name is similar to the target. Has been written for Firefox in Ubuntu (tested on 14.04 LTS). 
 
 ## Installation
 
-Requires wmctrl. To install:
+Requires `wmctrl` to safely close firefox before clearing cookies. To install:
 
 ```
 sudo apt-get install wmctrl
